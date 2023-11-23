@@ -1,12 +1,12 @@
-export function Experiencie({ experiencie }) {
+export function Experiencie({ experiencies }) {
   return (
-    <section className="experiencie">
+    <section className="experiencies">
       {
-        experiencie.map(experiencie => (
-          <div>
-            <h2>{experiencie.company}</h2>
-            <h3>{experiencie.position}</h3>
-            <h4>{experiencie.date}</h4>
+        experiencies.map(experiencie => (
+          <div key={experiencie.date} className="experiencie">
+            <h3 style={{textWrap: 'balance'}}>{experiencie.company}</h3>
+            <h4>{experiencie.position}</h4>
+            <h5>{experiencie.date}</h5>
             {
               experiencie.descriptions.map(description => (
                 <p>{description}</p>

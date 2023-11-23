@@ -36,17 +36,17 @@ export const studies =
     {
       header: 'Web Application Development',
       body: 'Triangle Estudis',
-      // description: 'Jul 2023 - Ago 2023',
+      description: 'Jan 2023 - Jul 2023',
     },
     {
       header: 'Mechanical Product Scheduling',
       body: 'CIPFP Vicente Blasco Ibáñez',
-      // description: 'Nov 2021 - Apr 2021',
+      description: 'Nov 2021 - Apr 2021',
     },
     {
       header: 'Mechanical Manufacture Design',
       body: 'CIPFP Vicente Blasco Ibáñez',
-      // description: 'Mar 2021 - Jun 2021',
+      description: 'Mar 2021 - Jun 2021',
     },
   ]
 }

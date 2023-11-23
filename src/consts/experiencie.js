@@ -1,6 +1,6 @@
 export const experience = [
   {
-    company: 'Imagina IT Solutions - Full Stack Developer',
+    company: 'Imagina IT Solutions - Web Developer',
     position: '',
     date: 'Jul 2023 - Ago 2023',
 
