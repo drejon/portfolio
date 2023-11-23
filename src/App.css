@@ -2,11 +2,37 @@ html {
   background-color: #101935;
   font-family: Lato;
 }
+
+img {
+  aspect-ratio: auto;
+  width: 50px;
+  /* height: 50px; */
+  /* height: 400px; */
+}
+
+.contact {
+  display: flex;
+}
+
+/* a img:hover {
+  border: 1px solid #FFE067;
+  padding: 1em;
+  border-radius: 0.3em;
+} */
+
+img {
+  width: 30px;
+  /* margin: 0 1em 1em 0; */
+  /* margin: 0 1em 5em 0; */
+}
+
+h2 {
+  margin: 0;
+}
+
 .cards {
-  /* background-color: red; */
-  /* display: flex; */
   color: #EEF8FB;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 .cards h1 {
@@ -19,11 +45,9 @@ html {
 }
 
 .card {
-  padding: 0.2em;
-  /* height: 60px; */
+  padding: 0.5em;
   width: fit-content;
   margin: 1em 1em 1em 0;
-  /* height: 1.5em; */
   border-left: 3px solid#FFE067;
 }
 
@@ -39,7 +63,52 @@ html {
 }
 .card :nth-child(3) {
   color: #CCC5B9;
+  font-size: 14px;
+  margin: 0.1em;
+}
+
+.projects {
+  color: #EEF8FB;
+  /* margin-bottom: 2em; */
+}
+
+.projects h1 {
+  color:#CCC5B9;
+  margin: 0em;
+}
+
+.projects section {
+  display: flex;
+}
+
+.project {
+  padding: 0.5em;
+  width: fit-content;
+  height: fit-content;
+  /* margin: 1em 1em 1em 0; */
+  border: 3px solid#FFE067;
+  border-radius: 1em;
+}
+
+.project :nth-child(1) {
   font-size: 18px;
+  margin: 0.1em;
+}
+
+.project :nth-child(2) {
+  color:#FFE067;
+  font-size: 18px;
+  margin: 0.1em;
+}
+.project :nth-child(3) {
+  color: #CCC5B9;
+  font-size: 14px;
+  margin: 0.1em;
+}
+
+.project :nth-child(4) {
+  color: #CCC5B9;
+  font-size: 14px;
   margin: 0.1em;
 }
 
@@ -55,7 +124,6 @@ html {
   margin-top: -0.5rem;
   font-size: 2.5em;
   font-weight: 300;
-  /* font-family: Lato; */
   color: #FFE067;
 }
 .container {

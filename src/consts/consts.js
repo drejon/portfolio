@@ -1,6 +1,6 @@
-export const experiencie = 
+export const experience = 
 {
-  title: 'Work Experiencie',
+  title: 'Work Experience',
 
   cards:
   [
@@ -53,24 +53,39 @@ export const studies =
 
 export const projects =
 {
-  title: 'Projects',
+  title: 'Pet-Projects',
 
-  cards:
+  projects:
   [
     {
       header: 'Minesweeper',
-      // body: 'Triangle Estudis',
-      description: 'React - Vite',
+      // image: './public/images/minesweeper.png',
+      // description: 'React - Vite',
     },
     {
       header: 'Battleship',
-      // body: 'CIPFP Vicente Blasco Ibáñez',
-      description: 'React - Vite',
+      // image: './public/images/battleship.png',
+      // description: 'React - Vite',
     },
     {
       header: 'Tic-Tac-Toe',
-      // body: 'CIPFP Vicente Blasco Ibáñez',
-      description: 'React - Vite',
+      // image: './public/images/tic-tac-toe.png',
+      // description: 'React - Vite',
     },
+  ]
+}
+
+export const svgs = 
+{
+  title: 'Technologies',
+
+  projects: [
+    {image: './public/images/react.svg'},
+    {image: './public/images/node.svg'},
+    {image: './public/images/express.svg'},
+    {image: './public/images/mysql.svg'},
+    {image: './public/images/vite.svg'},
+    {image: './public/images/git.svg'},
+    {image: './public/images/mocha.svg'},
   ]
 }

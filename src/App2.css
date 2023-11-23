@@ -1,0 +1,36 @@
+#root {
+  background-color: rgb(169, 108, 108);
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 1em;
+  /* text-align: center; */
+}
+
+p {
+  margin: 0.2em 0.2em 0.2em 0;
+}
+
+.experiencie {
+  border-left: 2px solid green;
+  padding: 0em 1em;
+  /* text-align: justify; */
+  text-wrap: balance;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid green;
+  border-radius: 5%;
+  height: 150px;
+  justify-content: center;
+  width: 120px;
+}
+
+.projects {
+  border-left: 2px solid green;
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  padding: 0em 1em;
+}

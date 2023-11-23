@@ -1,23 +1,25 @@
 import './App.css'
 import { Cards } from './components/Cards'
-import { experiencie, projects, studies } from './consts/consts'
+import { Contact } from './components/Contact'
+import { Projects } from './components/Projects'
+import { experience, projects, studies, svgs } from './consts/consts'
 
-function App() {
+export function App() {
 
   return (
     <>
     <main className='container'>
       <header>
-        <h1 className='name'>Diego Rejón Clemente</h1>
-        <h2 className='description'>Full Stack Developer</h2>
+        <h1 className='name'>Diego Alejandro Rejón Clemente</h1>
+        <h2 className='description'>Web Developer</h2>
+        <Contact></Contact>
       </header>
 
-      <Cards content={experiencie}></Cards>
+      <Cards content={experience}></Cards>
+      <Projects content={projects}></Projects>
+      <Projects content={svgs}></Projects>
       <Cards content={studies}></Cards>
-      <Cards content={projects}></Cards>
     </main>
     </>
   )
 }
-
-export default App
