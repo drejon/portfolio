@@ -8,8 +8,10 @@ export function Projects({ projects }) {
           projects?.map((project) => (
             <section key={project.header} className="project">
               <h4>{project.header}</h4>
-              <a target="blank"  href={project.repositoryLink}>Github</a>
-              <a target="blank"  href={project.demoLink}>Demo</a>
+              <div>
+                <a target="blank"  href={project.repositoryLink}>Github</a>
+                <a target="blank"  href={project.demoLink}>Demo</a>
+              </div>
             </section>
           ))
         }

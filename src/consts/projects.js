@@ -10,13 +10,13 @@ export const projects = [
     repositoryLink: '',
   },
   {
-    header: 'TIC-TAC-TOE',
+    header: 'Tic-Tac-Toe',
     demoLink: './src/projects/tic-tac-toe/index.html',
     repositoryLink: '',
   },
-  {
-    header: 'TO-DO List',
-    demoLink: './src/projects/todolist/index.html',
-    repositoryLink: '',
-  },
+  // {
+  //   header: 'To-Do List',
+  //   demoLink: './src/projects/todolist/index.html',
+  //   repositoryLink: '',
+  // },
 ]

@@ -11,10 +11,12 @@ import { stack } from './consts/stack'
 export function App2 () {
   return (
     <div>
-      {/* <h1>Diego Alejandro Rejón Clemente</h1> */}
+      <div id='progress'></div>
       <header>
         <h1 className='myName'>Diego Alejandro Rejón Clemente</h1>
         <h2 style={{color: 'var(--yellow)'}}>Web Developer</h2>
+          <a className={'image-link'} href="https://github.com/drejon" target='_blank'>Github</a>
+          <a className={'image-link'} href="https://www.linkedin.com/in/diego-alejandro-rej%C3%B3n-clemente-151065177/" target='_blank'>Linkedin</a>
       </header>
 
       <h2>Experiencie</h2>
@@ -28,6 +30,15 @@ export function App2 () {
 
       <h2>Stack</h2>
       <Stack stack={stack}></Stack>
+
+      <h2>contact</h2>
+      <footer>
+        <p>drc.working@gmail.com</p>
+        <div>
+          <a className={'image-link'} href="https://github.com/drejon" target='_blank'>Github</a>
+          <a className={'image-link'} href="https://www.linkedin.com/in/diego-alejandro-rej%C3%B3n-clemente-151065177/" target='_blank'>Linkedin</a>
+        </div>
+      </footer>
     </div>
   )
 }
