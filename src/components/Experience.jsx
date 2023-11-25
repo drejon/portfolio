@@ -1,8 +1,8 @@
-export function Experiencie({ experiencies }) {
+export function Experience({ experiences }) {
   return (
     <section className="experiencies">
       {
-        experiencies.map(experiencie => (
+        experiences.map(experiencie => (
           <div key={experiencie.date} className="experiencie">
             <h3 style={{textWrap: 'balance'}}>{experiencie.company}</h3>
             {/* <h4>{experiencie.position}</h4> */}

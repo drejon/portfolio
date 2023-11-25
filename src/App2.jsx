@@ -1,10 +1,10 @@
 import './App2.css'
-import { Experiencie } from './components/Experiencie'
+import { Experience } from './components/Experience'
 import { Projects } from './components/Projects'
 import { Stack } from './components/Stack'
 import { Studies } from './components/Studies'
 import { studies } from './consts/consts'
-import { experience } from './consts/experiencie'
+import { experience } from './consts/experience'
 import { projects } from './consts/projects'
 import { stack } from './consts/stack'
 
@@ -19,8 +19,8 @@ export function App2 () {
           <a className={'image-link'} href="https://www.linkedin.com/in/diego-alejandro-rej%C3%B3n-clemente-151065177/" target='_blank'>Linkedin</a>
       </header>
 
-      <h2>Experiencie</h2>
-      <Experiencie experiencies={experience}></Experiencie>
+      <h2>Experience</h2>
+      <Experience experiences={experience}></Experience>
 
       <h2>Projects</h2>
       <Projects projects={projects}></Projects>

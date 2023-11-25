@@ -3,7 +3,7 @@ export function Stack({ stack }) {
     <div className="stack">
       {
         stack.map(technologies => (
-          <img src={technologies} alt="" />
+            <img src={technologies} alt={'technologies'} />
         ))
       }
     </div>
