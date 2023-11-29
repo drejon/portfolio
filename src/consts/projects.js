@@ -1,17 +1,17 @@
 export const projects = [
   {
     header: 'Battleship',
-    demoLink: './src/projects/battleshipV2/index.html',
+    demoLink: '/demos/battleship',
     repositoryLink: 'https://github.com/drejon/new_projects/tree/master/battleshipV2',
   },
   {
     header: 'Minesweeper',
-    demoLink: './src/projects/minesweeper/index.html',
+    demoLink: '/demos/minesweeper',
     repositoryLink: '',
   },
   {
     header: 'Tic-Tac-Toe',
-    demoLink: './src/projects/tic-tac-toe/index.html',
+    demoLink: '/demos/tic-tac-toe',
     repositoryLink: '',
   },
   // {

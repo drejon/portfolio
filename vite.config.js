@@ -9,12 +9,12 @@ const createAlias = (folder) => ({
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  resolve: {
-    alias: {
-      ...createAlias('battleshipV2'),
-      ...createAlias('minesweeper'),
-      ...createAlias('tic-tac-toe'),
-      ...createAlias('todolist'),
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     ...createAlias('battleshipV2'),
+  //     ...createAlias('minesweeper'),
+  //     ...createAlias('tic-tac-toe'),
+  //     ...createAlias('todolist'),
+  //   },
+  // },
 })

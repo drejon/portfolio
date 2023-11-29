@@ -1,0 +1,54 @@
+.battleship {
+  /* background-color: aqua; */
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.battleship main {
+  display: flex;
+  flex-direction: column;
+}
+
+.battleship h1 {
+  margin: 0.3em;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  gap: 1em;
+  margin: 0.3em;
+  padding: 1em;
+}
+
+.board div {
+  width: 34px;
+  height: 34px;
+  border: 3px solid beige;
+  border-radius: 0.3em;
+}
+
+.board div:hover {
+  background-color: rgba(196, 207, 153, 0.537);
+}
+
+.blue {
+  background-color: rgb(93, 166, 195)
+}
+
+.red {
+  background-color: rgb(171, 89, 89)
+}
+
+.yellow {
+  background-color: rgba(217, 216, 140, 0.925);
+}
+
+.user { 
+  border: 2px solid white;
+  border-radius: 1em;
+  padding: 1em;
+}
