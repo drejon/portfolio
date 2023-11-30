@@ -1,132 +1,174 @@
 html {
-  background-color: #101935;
-  font-family: Lato;
+  --border: 2px solid var(--border-color);
+
+  --border-color: rgba(153, 222, 222, 0.861);
+  --bg-color: #101935;
+  --yellow: #FFE067;
+  --bone: #EEF8FB;
+  --gray: #CCC5B9;
+
+  --mb: 5em;
+  font-family: lato;
 }
 
-img {
-  aspect-ratio: auto;
-  width: 50px;
-  /* height: 50px; */
-  /* height: 400px; */
+#progress {
+  position: fixed;
+  top: 0;
+  width: 0px;
+  background-color: var(--yellow);
+  height: 0.25em;
+
+  animation: progress-bar auto linear;
+  animation-timeline: scroll(root);
 }
 
-.contact {
-  display: flex;
+@keyframes progress-bar {
+  from { width: 0px; }
+  to { width: 750px; }
 }
 
-/* a img:hover {
-  border: 1px solid #FFE067;
+#root {
+  background-color: var(--bg-color);
+  margin: 0 auto;
+  max-width: 750px;
   padding: 1em;
-  border-radius: 0.3em;
-} */
+}
+
+a {
+  background-color: var(--border-color);
+  border-radius: 0.2em;
+  color: var(--bg-color);
+  margin-right: 1em;
+  padding: 5px;
+  text-decoration: none;
+  transition: 0.7s cubic-bezier(0, 0.68, 0.58, 0.73)
+}
+
+a:hover {
+  background-color: var(--yellow);
+}
+
+section.project a {
+ margin: 5px; 
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+footer {
+  align-items: center;
+  border: var(--border);
+  border-radius: 0.5em;
+  display: flex;
+  height: fit-content;
+  padding: 0.3em;
+  width: fit-content;
+}
+
+footer a {
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+footer div{
+  position: relative;
+  display: inline-flex;
+  justify-self: right;
+  width: fit-content;
+  margin-left: 3em;
+}
+
+footer p {
+  color: var(--bone);
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+h2, h5 {
+  color: var(--yellow)
+}
+
+h3, h4 {
+  color: var(--bone);
+}
+
+h3, h5, p {
+  margin: 0.3em 0;
+}
+
+header {
+  margin-bottom: var(--mb);
+}
 
 img {
-  width: 30px;
-  /* margin: 0 1em 1em 0; */
-  /* margin: 0 1em 5em 0; */
+  width: 50px;
+  margin: 0 1em;
 }
 
-h2 {
-  margin: 0;
+p {
+  color: var(--gray);
 }
 
-.cards {
-  color: #EEF8FB;
-  margin-bottom: 2em;
+.experiencie {
+  border-left: var(--border);
+  padding: 0em 1em;
+  margin: 2.5em 0;
 }
 
-.cards h1 {
-  color:#CCC5B9;
-  margin: 0em;
+.experiencies {
+  margin-bottom: var(--mb);
+  text-wrap: balance;
 }
 
-.cards section {
-  display: flex;
-}
-
-.card {
-  padding: 0.5em;
-  width: fit-content;
-  margin: 1em 1em 1em 0;
-  border-left: 3px solid#FFE067;
-}
-
-.card :nth-child(1) {
-  font-size: 18px;
-  margin: 0.1em;
-}
-
-.card :nth-child(2) {
-  color:#FFE067;
-  font-size: 18px;
-  margin: 0.1em;
-}
-.card :nth-child(3) {
-  color: #CCC5B9;
-  font-size: 14px;
-  margin: 0.1em;
-}
-
-.projects {
-  color: #EEF8FB;
-  /* margin-bottom: 2em; */
-}
-
-.projects h1 {
-  color:#CCC5B9;
-  margin: 0em;
-}
-
-.projects section {
-  display: flex;
+.myName {
+  color: var(--bone);
+  font-family: anton;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 0;
 }
 
 .project {
-  padding: 0.5em;
-  width: fit-content;
-  height: fit-content;
-  /* margin: 1em 1em 1em 0; */
-  border: 3px solid#FFE067;
-  border-radius: 1em;
+  border: var(--border);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
 }
 
-.project :nth-child(1) {
-  font-size: 18px;
-  margin: 0.1em;
+.projects {
+  border-left: var(--border);
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  max-width: 600px;
+  margin-bottom: var(--mb);
+  padding: 0em 1em;
 }
 
-.project :nth-child(2) {
-  color:#FFE067;
-  font-size: 18px;
-  margin: 0.1em;
-}
-.project :nth-child(3) {
-  color: #CCC5B9;
-  font-size: 14px;
-  margin: 0.1em;
+.stack {
+  border-left: var(--border);
+  margin-bottom: var(--mb);
 }
 
-.project :nth-child(4) {
-  color: #CCC5B9;
-  font-size: 14px;
-  margin: 0.1em;
+.studies {
+  border-left: var(--border);
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  margin-bottom: var(--mb);
+  max-width: 600px;
+  padding: 0em 1em;
 }
 
-.name {
-  margin-bottom: 0rem;
-  font-size: 4em;
-  font-weight: 500;
-  font-family: Anton;
-  color: #EEF8FB;
-}
-
-.description {
-  margin-top: -0.5rem;
-  font-size: 2.5em;
-  font-weight: 300;
-  color: #FFE067;
-}
-.container {
-  width: 1200px;
-  margin-left: 10em;
+.study {
+  width: 270px;
+  border: var(--border);
+  border-radius: 10px;
+  padding: 0em 0.5em;
 }
