@@ -5,7 +5,7 @@ import { User } from './components/User.jsx'
 
 import { Arbitrator } from './logic/Arbitrator.js'
 import { Game } from './logic/Game.js'
-import { UserGame } from './logic/userGame.js'
+import { UserGame } from './logic/UserGame.js'
 
 import './battleship.css'
 
