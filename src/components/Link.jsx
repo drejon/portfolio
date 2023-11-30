@@ -1,4 +1,4 @@
-import { navigate } from "../App2"
+import { navigate } from "../App"
 
 export function Link ({ target, to, ...props }) {
   const handleClick = (event) => {

@@ -1,11 +1,8 @@
-// import { Project } from "./Project";
-
 import { Link } from "./Link";
 
 export function Projects({ projects }) {
   return (
     <section className="projects">
-      {/* <h1>{projec?.title}</h1> */}
         {
           projects?.map((project) => (
             <section key={project.header} className="project">
