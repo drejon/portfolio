@@ -3,6 +3,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 
 import { Home } from './demos/Home'
+// import { Main } from './src/demos/battleship/src/mainBattleship'
 import { Battleship } from './demos/battleship/src/Battleship'
 import { Minesweeper } from './demos/minesweeper/src/Minesweeper'
 import { TicTacToe } from './demos/tic-tac-toe/src/TicTacToe'
