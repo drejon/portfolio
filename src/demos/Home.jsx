@@ -31,7 +31,7 @@ export function Home() {
         <h2>Stack</h2>
         <Stack stack={stack}></Stack>
 
-        <h2>contact</h2>
+        <h2>Contact</h2>
         <footer>
           <p>drc.working@gmail.com</p>
           <div>

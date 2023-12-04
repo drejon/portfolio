@@ -4,6 +4,6 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { Battleship } from './Battleship.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('battleship')).render(
     <Battleship />
 )

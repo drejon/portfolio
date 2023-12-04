@@ -2,10 +2,10 @@ import './App.css'
 
 import { Route, Routes } from 'react-router-dom'
 
-import { Home } from './pages/Home'
-import { Battleship } from './pages/battleship/src/Battleship'
-import { Minesweeper } from './pages/minesweeper/src/Minesweeper'
-import { TicTacToe } from './pages/tic-tac-toe/src/TicTacToe'
+import { Home } from './demos/Home'
+import { Battleship } from './demos/battleship/src/Battleship'
+import { Minesweeper } from './demos/minesweeper/src/Minesweeper'
+import { TicTacToe } from './demos/tic-tac-toe/src/TicTacToe'
 
 export function App () {
   
