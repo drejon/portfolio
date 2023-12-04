@@ -7,12 +7,12 @@ export const projects = [
   {
     header: 'Minesweeper',
     demoLink: '/demos/minesweeper',
-    repositoryLink: '',
+    repositoryLink: 'https://github.com/drejon/new_projects/tree/master/minesweeper',
   },
   {
     header: 'Tic-Tac-Toe',
     demoLink: '/demos/tic-tac-toe',
-    repositoryLink: '',
+    repositoryLink: 'https://github.com/drejon/new_projects/tree/master/tic-tac-toe',
   },
   // {
   //   header: 'To-Do List',

@@ -1,4 +1,4 @@
-import { Link } from "./Link";
+import { Link } from "react-router-dom";
 
 export function Projects({ projects }) {
   return (
@@ -8,9 +8,8 @@ export function Projects({ projects }) {
             <section key={project.header} className="project">
               <h3>{project.header}</h3>
               <div>
-                {/* <Link to={project.demoLink} target={'_blank'}>Demo</Link> */}
-                <a target="_blank"  href={project.demoLink}>Demo</a>
-                <a target="_blank"  href={project.repositoryLink}>Github</a>
+                <Link target={"_blank"} to={project.demoLink}>Demo</Link>
+                <Link target={"_blank"} to={project.repositoryLink}>GitHub</Link>
               </div>
             </section>
           ))
