@@ -1,6 +1,7 @@
 import './App.css'
 
 import { useState, useEffect } from 'react'
+import { Route, Routes } from 'react-router-dom'
 
 import { Home } from './pages/Home'
 import { Battleship } from './pages/battleship/src/Battleship'
@@ -13,7 +14,7 @@ const routes = [
     Component: Home
   },
   {
-    path: '/demos/battleship',
+    path: '/cualquierbasura',
     Component: Battleship
   },
   {
@@ -35,7 +36,7 @@ export function navigate(href) {
   window.dispatchEvent(navigationEvent)
 }
 
-function Router ({ routes = [], defaultComponent: DefaultComponent = () => {<h1>404</h1>} }) {
+function Router ({ routes = [], defaultComponent: DefaultComponent = () => {<h1>AREPITA</h1>} }) {
   const [currentPath, setCurrentPath] = useState(window.location.pathname)
 
   useEffect( () => {
@@ -61,7 +62,13 @@ export function App () {
   
   return (
     <main>
-      <Router routes={routes}/>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/demos/battleship' element={<Battleship/>}></Route>
+        <Route path='/demos/minesweeper' element={<Minesweeper/>}></Route>
+        <Route path='/demos/tic-tac-toe' element={<TicTacToe/>}></Route>
+        {/* <Router routes={routes}/> */}
+      </Routes>
     </main>
   )
 }

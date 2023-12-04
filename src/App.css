@@ -3,12 +3,26 @@ html {
 
   --border-color: rgba(153, 222, 222, 0.861);
   --bg-color: #101935;
+  /* --bg-color: rgb(55, 64, 158); */
+
   --yellow: #FFE067;
   --bone: #EEF8FB;
   --gray: #CCC5B9;
 
   --mb: 5em;
   font-family: lato;
+}
+
+.colors {
+  --blue: rgb(93, 166, 195);
+  --lightBlue: rgba(153, 222, 222, 0.861);
+  --purple: rgb(55, 64, 158);
+  --hardBlue: #101935;
+
+  --red: rgb(171, 89, 89);
+
+  --green: rgba(196, 207, 153, 0.863);
+  --gold: rgba(217, 216, 140, 0.925);
 }
 
 #progress {
@@ -28,7 +42,7 @@ html {
 }
 
 #root {
-  background-color: var(--bg-color);
+  /* background-color: var(--bg-color); */
   margin: 0 auto;
   max-width: 750px;
   padding: 1em;
@@ -38,8 +52,9 @@ a {
   background-color: var(--border-color);
   border-radius: 0.2em;
   color: var(--bg-color);
+  font-family: 'Hind Madurai', helvetica, arial, sans-serif;
   margin-right: 1em;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   transition: 0.7s cubic-bezier(0, 0.68, 0.58, 0.73)
 }
@@ -49,7 +64,11 @@ a:hover {
 }
 
 section.project a {
- margin: 5px; 
+  margin: .3em; 
+ }
+
+section.project h3 {
+ margin: 1em; 
 }
 
 body {
@@ -67,8 +86,7 @@ footer {
 }
 
 footer a {
-  margin-left: 0.1em;
-  margin-right: 0.1em;
+  margin: 0 .1em;
 }
 
 footer div{
@@ -79,20 +97,31 @@ footer div{
   margin-left: 3em;
 }
 
-footer p {
+footer {
   color: var(--bone);
+  padding: 1em;
+  /* font-size: 20px; */
 }
 
 h1, h2 {
+  font-family: Montserrat;
   margin-top: 0;
 }
 
-h2, h5 {
-  color: var(--yellow)
+h2 {
+  color: var(--yellow);
+  font-family: Shanti;
+  font-size: 28px;
 }
 
-h3, h4 {
+h5 {
+  color: var(--yellow);
+  font-size: 20px;
+}
+
+h3 {
   color: var(--bone);
+  font-size: 23px;
 }
 
 h3, h5, p {
@@ -110,12 +139,14 @@ img {
 
 p {
   color: var(--gray);
+  font-family: Hind Madurai;
+  font-size: 18px;
 }
 
 .experiencie {
   border-left: var(--border);
   padding: 0em 1em;
-  margin: 2.5em 0;
+  margin-bottom: 2.5em;
 }
 
 .experiencies {
@@ -137,7 +168,7 @@ p {
   display: flex;
   flex-direction: column;
   height: 150px;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -170,5 +201,5 @@ p {
   width: 270px;
   border: var(--border);
   border-radius: 10px;
-  padding: 0em 0.5em;
+  padding: 0em 1em;
 }

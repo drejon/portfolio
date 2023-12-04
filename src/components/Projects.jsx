@@ -6,7 +6,7 @@ export function Projects({ projects }) {
         {
           projects?.map((project) => (
             <section key={project.header} className="project">
-              <h4>{project.header}</h4>
+              <h3>{project.header}</h3>
               <div>
                 <Link to={project.demoLink} target={'_blank'}>Demo</Link>
                 {/* <a target="_blank"  href={project.demoLink}>Demo</a> */}

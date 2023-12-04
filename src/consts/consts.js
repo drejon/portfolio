@@ -41,12 +41,12 @@ export const studies =
     {
       header: 'Mechanical Product Scheduling',
       body: 'CIPFP Vicente Blasco Ibáñez',
-      description: 'Nov 2021 - Apr 2021',
+      description: 'Sep 2019 - Jun 2022',
     },
     {
       header: 'Mechanical Manufacture Design',
       body: 'CIPFP Vicente Blasco Ibáñez',
-      description: 'Mar 2021 - Jun 2021',
+      description: 'Sep 2017 - Jun 2019',
     },
   ]
 }
