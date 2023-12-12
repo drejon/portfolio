@@ -10,33 +10,42 @@ export const experience = [
     ]
   },
   {
-    company: 'Mitsubishi Materials España - Machine Operator',
-    // position: 'Machine Operator',
-    date: 'Nov 2021 - Apr 2022',
-
-    descriptions: [
-      `Maintained the production of 2 machines at the same time.`,
-      `Produced between 1500 and 2000 carbon inserts per day.`,
-    ]
-  },
-  {
-    company: 'Valvulas Arco - Machine Operator',
+    company: 'Machine Operator',
     position: '',
-    date: 'Mar 2021 - Jun 2021',
+    date: '2019 - 2022',
 
     descriptions: [
-      `Assisted my mentors preparing and maintaining the machining centers in lathe's section of the factory.`,
-      `Examined periodically the final product, measuring all the critical aspects.`,
+      'Worked as machine operator for one year, 6 moths in intership.',
     ]
   },
-  {
-    company: 'Oceano Naranja - Machine Operator',
-    position: '',
-    date: 'Mar 2019 - Jun 2019',
+  // {
+  //   company: 'Mitsubishi Materials España - Machine Operator',
+  //   // position: 'Machine Operator',
+  //   date: 'Nov 2021 - Apr 2022',
 
-    descriptions: [
-      `Drew different architectural parts of buildings.`,
-      `Cut with laser those parts and assisted some customers in their projects with the cutting laser.`,
-    ]
-  },
+  //   descriptions: [
+  //     `Maintained the production of 2 machines at the same time.`,
+  //     `Produced between 1500 and 2000 carbon inserts per day.`,
+  //   ]
+  // },
+  // {
+  //   company: 'Valvulas Arco - Machine Operator',
+  //   position: '',
+  //   date: 'Mar 2021 - Jun 2021',
+
+  //   descriptions: [
+  //     `Assisted my mentors preparing and maintaining the machining centers in lathe's section of the factory.`,
+  //     `Examined periodically the final product, measuring all the critical aspects.`,
+  //   ]
+  // },
+  // {
+  //   company: 'Oceano Naranja - Machine Operator',
+  //   position: '',
+  //   date: 'Mar 2019 - Jun 2019',
+
+  //   descriptions: [
+  //     `Drew different architectural parts of buildings.`,
+  //     `Cut with laser those parts and assisted some customers in their projects with the cutting laser.`,
+  //   ]
+  // },
 ]
